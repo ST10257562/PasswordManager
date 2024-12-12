@@ -9,7 +9,8 @@
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("Designed by Tim Dladla and Dylan Hall");
 
-            string filePath = "",; // Change to your file path //idk if correct but i have the file
+            string filePath = ""; // Change to your file path //idk if correct but i have the file string filePath = "C:\\path\\to\\your\\google_passwords.txt";
+
 
             //Checks
             if (!File.Exists(filePath))
