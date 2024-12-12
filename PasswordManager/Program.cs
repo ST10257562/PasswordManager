@@ -4,12 +4,14 @@
     {
         static void Main(string[] args)
         {
+            //Heading SCOTTNET
             Console.WriteLine("Password Manager");
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("Designed by Tim Dladla and Dylan Hall");
 
-            string filePath = "google_passwords.txt"; // Change to your file path
+            string filePath = "",; // Change to your file path //idk if correct but i have the file
 
+            //Checks
             if (!File.Exists(filePath))
             {
                 Console.WriteLine($"File not found: {filePath}");
@@ -18,7 +20,7 @@
 
             try
             {
-                List<string> passwords = ExtractPasswords(filePath);
+                List<string> passwords = ExtractPasswords(filePath); //yebo yess its in
 
                 Console.WriteLine("Passwords in the file:");
                 foreach (var password in passwords)
